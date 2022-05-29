@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:11
 EXPOSE 8080
 RUN yum update all
 RUN yum install -y maven
